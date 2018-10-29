@@ -6,8 +6,10 @@ var height, width, color
 $('#sizePicker').submit(function (event)  {
     event.preventDefault();
     height = $('#inputHeight').val();
-    width = $('inputWidth').val();
+    width = $('#inputWidth').val();
     makeGrid(height, width);
+    // check if function reads user input
+    // console.log('height: ' + height + 'width: ' + width)
 })
 
 
