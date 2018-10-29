@@ -13,8 +13,8 @@ $('#sizePicker').submit(function (event)  {
 })
 
 
-function makeGrid() {
-
+function makeGrid(a, b) {
+    $('tr').remove();
 // Your code goes here!
 
 }
